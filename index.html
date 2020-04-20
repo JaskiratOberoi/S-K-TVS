@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>S.K. TVS</title>
+    <link rel="stylesheet" href="./scss/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body id="body">
+    <header>
+      <div class="logo">
+        <img src="./Design/media/main-logo-2x.png" alt="tvs-horse-logo" />
+      </div>
+      <nav class="desktop-navbar">
+        <ul>
+          <li class="ltr">Home</li>
+          <li class="ltr">Home</li>
+          <li class="ltr">Home</li>
+          <li class="ltr">Home</li>
+        </ul>
+      </nav>
+      <div class="mobile-navbar-switch" id="menu-switch">
+        <i class="fas fa-bars"></i>
+      </div>
+      <nav class="mobile-navbar" id="mobile-navbar">
+        <ul>
+          <!-- <li id="close-menu"><i class="fas fa-times"></i></li> -->
+          <li>About us</li>
+          <li>Contact us</li>
+          <li>Service</li>
+          <li>Vehicles</li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Tab links -->
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'Bikes')">
+        Bikes
+      </button>
+      <button class="tablinks" onclick="openCity(event, 'Paris')">
+        Scooters
+      </button>
+      <button class="tablinks" onclick="openCity(event, 'Tokyo')">
+        Scooterette
+      </button>
+    </div>
+
+    <main>
+      <!-- Image carousel -->
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img
+            src="./Design/media/PRODUCT_4V.png"
+            style="width: 100%;"
+            alt="apache"
+          />
+          <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img
+            src="./Design/media/PRODUCT_PAGE.png"
+            alt="apache 2"
+            style="width: 100%;"
+          />
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img
+            src="./Design/media/PRODUCT_PAGE-x.png"
+            alt="splender"
+            style="width: 100%;"
+          />
+          <div class="text">Caption Three</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img
+            src="./Design/media/STAR_CITY-X.png"
+            alt="star"
+            style="width: 100%;"
+          />
+          <div class="text">Caption Three</div>
+        </div>
+      </div>
+      <br />
+
+      <div style="text-align: center;">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+      <!-- Tab content -->
+      <!-- Tab 1 -->
+      <div id="Bikes" class="tabcontent">
+        <h1>Our Line-up</h1>
+        <div class="tabular">
+          <img src="./Design/media/tvs-sport-y.jpg" alt="" />
+          <div class="t-content">
+            <h3>TVS Sport</h3>
+            <p>
+              TVS Sport is high on mileage (95km/L under standard test
+              conditions), huge on durability and low on maintenance which makes
+              it the best buy in its segment.
+            </p>
+          </div>
+        </div>
+
+        <div class="tabular">
+          <img src="./Design/media/tvs-victor-y.png" alt="" />
+          <div class="t-content">
+            <h3>TVS Victor</h3>
+            <p>
+              This is the new Avatar of the revolutionary TVS Victor which gives
+              you SMILES & MILES. The new victor is stylish and gives you
+              superior riding experience with more pickup and power, comfortable
+              seating and suspension for handling bad roads/speed breakers. It
+              gives the power of 125cc and mileage of 100cc bikes. With victor
+              you will enjoy riding with your family.
+            </p>
+          </div>
+        </div>
+        <div class="tabular">
+          <img src="./Design/media/STAR_CITY-X.png" alt="" />
+          <div class="t-content">
+            <h3>TVS Star City plus BS VI</h3>
+            <p>
+              Star city plus is India's No.1 110 cc motorcycle that delivers a
+              15% better fuel economy. With a host of unbeatable benefits, it's
+              truly a star!
+            </p>
+          </div>
+        </div>
+
+        <div class="tabular">
+          <img src="./Design/media/PRODUCT_4V.png" alt="" />
+          <div class="t-content">
+            <h3>TVS Apache RTR 1604V</h3>
+            <p>
+              TVS Radeon offers you a unique combination of solid build, robust
+              style and plush comfort in every ride.
+            </p>
+          </div>
+        </div>
+        <div class="tabular">
+          <img src="./Design/media/RADEON_prod.png" alt="" />
+          <div class="t-content">
+            <h3>TVS Radeon</h3>
+            <p>
+              TVS Radeon offers you a unique combination of solid build, robust
+              style and plush comfort in every ride.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Tab 2 -->
+      <div id="Paris" class="tabcontent">
+        <h3>Paris</h3>
+        <p>Paris is the capital of France.</p>
+      </div>
+      <!-- Tab 3 -->
+      <div id="Tokyo" class="tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="./script.js"></script>
+  </body>
+</html>

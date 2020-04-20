@@ -1,0 +1,8 @@
+@media all and (min-width: 700px) {
+  .mobile-navbar-switch {
+    display: none;
+  }
+  .desktop-navbar {
+    display: flex !important;
+  }
+}
